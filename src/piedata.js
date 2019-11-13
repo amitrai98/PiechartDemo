@@ -5,7 +5,7 @@ const PieDataCell = props => {
   const {cellValue, cellColor} = props;
   return (
     <View style={{flexDirection: 'row', margin: 2}}>
-      <Text>{cellValue}</Text>
+      <Text style={{width: 30}}>{cellValue}</Text>
       <View
         style={{
           height: 20,
